@@ -1,0 +1,90 @@
+Chronic Absenteeism Visualization:  While it’s understandable that students occasionally miss school due to illness, doctor’s appointments, family emergencies, etc., missing too many school days hinders students’ abilities to learn. Chronic absenteeism is often defined as when students miss fifteen or more school days in a year. This visualization shows how many students are chronically absent in each state along with how many males and females are absent in each state. We wanted to view this to see if a gender tends to be more absent.  To view proportions of gender by state, Math Enrollment Tab.
+
+
+Other Visualizations: These visualizations represent the amount of expulsions with educational services by race organized by state. We wanted to examine these variables as a way to view potential racial biases in school systems.
+
+We also included total enrollment by race organized by state, as it is important to recognize that a state may have more expulsions of one particular race because the majority of their students are of that race. In addition, states that have a lower proportion of students of a particular race but higher expulsions may reveal a racial bias. We cannot draw conclusions about racial biases through this dataset, nor through the visualizations that we create, but we do find these results interesting to look at.
+
+Note: Schools that did not provide data for these variables had their cell marked with a -9. If there was an EdFacts missing data it was marked with a -8. If there was a system error it was marked with a -7 and if the cell value was small it was marked with a -2. This had impacts on the visualizations, as the visualizations are a sum across all visualizations of that variable. However, after viewing the dataset, we are making the educated assumption that schools that did not record information in one of these variables, and thus had a -9, will have also not provided information for the others, and the proportions should not be significantly different.  This is still important to note as we cannot guarantee this. 
+
+Variable explanations:
+
+The variables that begin with Sch discwodis expwe stands for students without a disability that received an expulsion with educational services.
+LEA state is the State name 
+
+The race abbreviations are:
+AM- Native American/Alaskan Native
+AS-Asian
+BL-Black
+HI-Hispanic
+HP-Native Hawaiian/Pacific Islander
+LEP-Limited English Proficient (This is not a race, but we wanted to include it in the visualizations)
+TR-Two or More Races
+WH-White
+
+
+
+
+
+
+Visualization Group 2
+
+Math Visualizations first dashboard (2 visualizations): These visualizations represent the amount of students who were enrolled in Algebra 2 and the amount of students who were enrolled in Advanced Math by gender organized by state. We wanted to view these variables to explore a potential gender bias in advanced math classes. We were surprised to see that the female enrollment was higher in the majority of states. Although we cannot say definitively this rules out a gender bias in advanced math classes, the visualization is different from what we had expected to see. 
+We also included total enrollment by gender organized by state to see if the enrollment in classes was due to more of one gender being enrolled. As total enrollment includes all enrollment across all grades after preschool, we cannot use this to demonstrate only highschool enrollment. However, we did see that the majority of states have a higher male enrollment than female enrollment, which we did find interesting considering that thesde math classes had higher female enrollment. 
+
+Variable explanation
+Tot algenr stands for total Algebra enrollment
+LEA State is the State Name
+LEA Name is the name of the school district
+G08 stands for grade 8
+GS0910 stands for grades 9 and 10
+M and F stand for Male and Female 
+
+
+Math Visualizations second and third dashboard(4 visualizations): These visualizations represent total enrollment in Algebra in 8th grade and total enrollment in Algebra in 9th and 10th grades by gender organized by state. We also organized it by district and state, as well as just by district. We wanted to view enrollment of algebra to see if there were gender biases in math classes. We also wanted to see when most people take Algebra. We organized it by state and by district to allow users to look for their own district. 
+
+We also included total enrollment by gender organized by state to see if enrollment in classes was due to one gender being overrepresented, as well as if overall enrollment being higher was due to more students enrolled in that state. We cannot draw conclusions about gender biases in math classes from these visualizations nor the dataset, but the visualization provides interesting  insights to these classes. 
+
+Note: Schools that did not provide data for these variables had their cell marked with a -9. If there was an EdFacts missing data it was marked with a -8. If there was a system error it was marked with a -7, and if the cell value was small it was marked with a -2. This has impacts on the visualizations, as the visualizations are a sum across all observations for that variable. However, after viewing the dataset, we have made the educated assumption that schools that did not provide data for one of these variables also did not provide data for the other, so the proportions should not be significantly different. This is still important to note, as we cannot guarantee this.
+
+Variable explanations
+Tot mathenr alg2 stands for total enrollment in algebra 2
+Tot mathenr advm stands for total enrollment in advanced math
+LEA state is the State name
+Tot enr stands for total enrollment
+The M and the F at the end of the variables stand for Male and Female.
+
+
+
+SAT and ACT 
+Description: Although many colleges and universities are now making SAT and ACT test scores optional for college admittance, this was not the case in 2015-2016; back then, most universities required students to submit their SAT and/or ACT scores in order to be considered for admittance. Because these test scores were often required, seeing how many students took these standardized tests is a good indication of how many students applied to college and were intending to attend college in the near future. This visualization shows the overall number of students who took the SAT or ACT in each state and splits up the number of students by race.  We wanted to view this to see if there are any racial biases across how many students take the SAT or ACT. We also wanted to view if some states have a higher proportion of students that take the SAT or ACT. To view the proportions of race across states, you can view the visualizations in the Expulsion with educational services tab. To view the total enrollment of students across states you can view the visualizations of Advanced Math and Algebra 2 tab. Although we cannot draw conclusions from this visualization, they provide interesting insights.
+
+Note: Schools that did not provide data for these variables had their cell marked with a -9. If there was an EdFacts missing data it was marked with a -8. If there was a system error it was marked with a -7, and if the cell value was too small it was marked with a -2. This impacts the visualization, as the visualization is the sum across all observations that use that variable. However, after viewing the dataset, we have made an educated assumption that if a school did not provide data for one of these variables, they did not provide data for the others, so the proportions should not be significantly different. This is still important to note, as we cannot guarantee this. 
+
+
+
+
+School Support
+Descriptions: Having support at school is vital to every student’s health, education, and security; this support includes full time, or FTE, teachers, psychologists, social workers, nurses, security guards, and sworn law enforcement officers. This visualization shows the numbers of FTE employees hired by public schools in each state. Because not every school district has the same budget and resources, we also show the number of employed teachers, nurses, and counselors by district to compare the number of support systems the students have in each school district in every state. It also splits the teacher category into more subcategories in order to further understand the qualifications and experience teachers have. 
+
+Note: Schools that did not provide data for these variables had their cell marked with a -9. If there was an EdFacts missing data it was marked with a -8. If there was a system error it was marked with a -7, and if the cell value was too small it was marked with a -2. This impacts the visualization, as the visualization is the sum across all observations that use that variable. However, after viewing the dataset, we have made the educated assumption that schools that did not provide data for one of these variables, also did not provide data for the others, so the proportions should not be significantly different. This is still important to note, as we cannot guarantee this. 
+
+
+
+
+
+Sources for images:
+
+Chalkboard: https://www.pinterest.com/pin/738942251351454446/
+Money: https://www.greenwichtime.com/news/article/Want-to-Stay-a-Millionaire-Don-t-Do-These-4-8422819.php
+Pencil: https://www.dreamstime.com/stock-photo-exam-optics-optical-paper-student-exam-optics-paper-marked-optical-paper-pictures-optical-papers-educational-sites-image88135218
+Classroom: https://www.pinterest.com/pin/741194051164205299/
+Nurses: https://www.newsbreak.com/news/1609996521622/overwhelmed-stressed-scared-school-nurses-brace-for-the-fall-semester
+Math: https://static6.depositphotos.com/1006009/647/i/600/depositphotos_6477442-stock-photo-mathematical-equations-on-blackboard.jpg
+
+
+
+
+Data Set: Should be included in the homepage  https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2015-16.html
+
+
