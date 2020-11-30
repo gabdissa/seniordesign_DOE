@@ -5,46 +5,123 @@
     <head>
         <title>Senior Design - Department of Education (CRDC) Data Visualization </title>
 		<link rel="stylesheet" href="styles.css">
-		<script type="text/javascript">
-    		function goToNewPage() {
-        		var url = document.getElementById('list').value;
-        		if(url != 'none') {
-					window.location = url;
-        		}
-    		}
-		</script>
     </head>
     <body>
 		
+		<!--Navigation Bar-->
 		<nav>
             <ul class="topnav" id="dropdownClick">
                 <li><a href="expenditures.html">Salary Expenditures</a></li>
-                <li><a href="#theme2">Theme 2</a></li>
-                <li><a href="#theme3">Theme 3</a></li>
+                <li><a href="sat_act.html">SAT/ACT</a></li>
+                <li><a href="chronic_absenteeism.html">Chronic Absenteeism</a></li>
+				<li><a href="school_support.html">School Support</a></li>
                 <li class="topnav-right"><a href="#about">About</a></li>
             </ul>
         </nav>
 		
+		<!--Banner & Header-->
 		<header>
         	<h1 class="title">Department of Education CRDC Data Project</h1>
         </header>
 		
+		<div class="homepageBanner">
+			<img src="content/homepagebanner.jpg" width="100%">
+		</div>
 		
-		<img src="content/homepagebanner.jpg" class="homepageBanner">
+	
+        <p style="background-color:#dbceb9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		
 		
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!--topics to explore-->
+        
 		
-		<!--Drop down menu-->
-		<form>
-			<select name="list" id="list" accesskey="target">
-    			<option value='none' selected>Choose a theme to explore</option>
-    			<option value="expenditures.html">Salary Expenditures</option>
-    			<option value="theme2.html">Theme 2</option>
-    			<option value="theme3.html">Theme 3</option>
-			</select>
-			<input type=button value="Go" onclick="goToNewPage()" />
-		</form>
+		<div class="container" id="section1-backcolor-odd">
+            <div class="row">
+                <div class="col-7">
+                    <div class="leftside">
+                        <h1 class="large">Salary Expenditures and Funding</h1>
+                    </div>
+					<p style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+					<div class="centerButton">
+						<a href="expenditures.html">
+							<button id="salaryButton" type="button" class="odd"><b>Explore Data Visualizations!</b></button>
+						</a>
+					</div>
+                </div>
+				
+                <div class="col-5">
+                    <div class="rightside">
+                        <img src="content/funding.jpeg"  width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="section1-backcolor-even">
+            <div class="row">
+                <div class="col-5">
+					<div class="leftside">
+                        <img src="content/tests.jpg"  width="100%">
+                    </div>
+                </div>
+				
+                <div class="col-7">
+					<div class="rightside">
+                        <h1 class="large" style="color: black">National SAT and ACT Participation</h1>
+                    </div>
+					<p style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+					<div class="centerButton">
+						<a href="sat_act.html">
+							<button type="button" class="even"><b>Explore Data Visualizations!</b></button>
+						</a>
+					</div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="section1-backcolor-odd">
+            <div class="row">
+                <div class="col-7">
+                    <div class="leftside">
+                        <h1 class="large">Chronic Absenteeism in the Nation's Schools</h1>
+                    </div>
+					<p style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+					<div class="centerButton">
+						<a href="chronic_absenteeism.html">
+							<button type="button" class="odd"><b>Explore Data Visualizations!</b></button>
+						</a>
+					</div>
+                </div>
+				
+                <div class="col-5">
+                    <div class="rightside">
+                        <img src="content/chronic.jpg"  width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="container" id="section1-backcolor-even">
+            <div class="row">
+                <div class="col-5">
+					<div class="leftside">
+                        <img src="content/nurses.jpg"  width="100%">
+                    </div>
+                </div>
+				
+                <div class="col-7">
+					<div class="rightside">
+                        <h1 class="large" style="color: black">School Support for Students</h1>
+                    </div>
+					<p style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+					<div class="centerButton">
+						<a href="school_support.html">
+							<button type="button" class="even"><b>Explore Data Visualizations!</b></button>
+						</a>
+					</div>
+                </div>
+            </div>
+        </div>
 		
 		
     </body>
