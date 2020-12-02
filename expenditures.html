@@ -20,7 +20,18 @@
 		
         <h1 style="text-align: center">US State and Federal School Salary Expenditures</h1>
 		
-        <p style="font-family:verdana">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="font-family:verdana">Funding for public schools across the United States has been a hot topic for legislatures at the local, state and federal level. Furthermore, such disparities exist based on the location of the schools. This visualization shows the amount spent for salary expenditures for schools and disctricts across states nationwide. Funding includes federal and state expenditure data. Explore to see how funding varies for teachers across the country and how districts in urban or rural areas get support from governments. The dataset included negative numbers (as mentioned in the note below) so averages would've been skewed. Instead as a data metric, median values were used so the data visualization shows the "average" funding/salary expenditure per school. The following horizontal chart sums up schools in their respective districts and gets the total amount including federal funding for salaries.</p>
+		
+		<p style="font-family:verdana"><b>Note:</b> Schools that did not provide data for these variables had their cell marked with a -9. If there was an EdFacts missing data it was marked with a -8. If there was a system error it was marked with a -7, and if the cell value was too small it was marked with a -2. This impacts the visualization, as the visualization is the sum across all observations that use that variable. However, after viewing the dataset, we have made an educated assumption that if a school did not provide data for one of these variables, they did not provide data for the others, so the proportions should not be significantly different. This is still important to note, as we cannot guarantee this. </p>
+		
+		<p style="font-family:verdana"><b>Variable Explanations</b></p>
+		
+		<ul style="font-family:verdana">
+  			<li>LEA State is the State Name</li>
+			<li>LEA Name is the name of the school district</li>
+			<li>Sch Sal Teach Wfed: Salary Expenditures for Teachers Funded with Federal, State, and Local Funds</li>
+			<li>SCh Sal Teach Wofed: Salary Expenditures for Teachers Funded with State and Local Funds</li>
+		</ul>
 		
 		<!-- US MAP & Bar Graph-->
 		<div class='tableauPlaceholder' id='viz1602703173099' style='position: relative'>
@@ -42,8 +53,6 @@
 			</object>
 		</div>                
 		<script type='text/javascript'>                    var divElement = document.getElementById('viz1602703173099');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-		
-		<p style="font-family:verdana">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		
 		<!--Districts Funding (With Federal Funding)-->
 		<div class='tableauPlaceholder' id='viz1603311723259' style='position: relative'>
